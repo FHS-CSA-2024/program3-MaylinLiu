@@ -22,12 +22,11 @@ length = myScanner.nextInt();
 System.out.println("Please enter the width: ");
 width = myScanner.nextInt();
 
-perimeter = length*2 + width*2;
-area = length*width;
-
-
 
 //Calculate
+    
+perimeter = length*2 + width*2;
+area = length*width;
 
 //Output
 System.out.println("The length is: " + length);
